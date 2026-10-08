@@ -1,6 +1,6 @@
 /* 
 Color Palette:
-Purple: #6C4AB6
+Amber: #bd5b00
 Navy Blue: #172554
 Light Gray: #F3F4F6
 Dark Gray: #F3F4F6
@@ -8,6 +8,11 @@ White: #FFFFFF
 */
 
 
+.alegreya-uniquifier {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 600
+}
 
 
 #mahdi-photo {
@@ -41,7 +46,45 @@ Body{
 }
 
 .work-experience {
-  padding 50px 10%;
+  padding: 50 px 10%;
   background-color: #FFFFFF;
 
+}
+
+.education {
+  padding: 50px 10%;
+  background-color: #f3f4f6
+}
+
+.edcucation h2 {
+  color: #172554
+}
+
+.volunteer-experience h2 {
+    color: #6C4AB6;
+}
+
+footer {
+padding: 40px 10%;
+color: #FFFFFF;
+background-color: #bd5b00;
+text-align: center;
+}
+/* change color for text to amber*/
+
+footer h2 {
+  color: #FFFFFF;
+
+}
+
+.contact-links a{
+    margin: 0 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-links a:hover {
+    color: #C4B5FD;
+    text-decoration: underline;
 }
