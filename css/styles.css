@@ -1,9 +1,13 @@
-/* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+/* 
+Color Palette:
+Purple: #6C4AB6
+Navy Blue: #172554
+Light Gray: #F3F4F6
+Dark Gray: #F3F4F6
+White: #FFFFFF
 */
+
+
 
 
 #mahdi-photo {
@@ -12,22 +16,32 @@
   border-radius: 50%;
 }
 
-/* Global styles 
-------------------------------------*/
-body {
-    /*background: lightblue;*/
+Body{
+  margin:0;
+  color: #374151;
+  background-color: #f3f4f6;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
 }
 
+.intro{
+    padding: 60px 10%;
+    color: #FFFFFF;
+    background-color: #172554;
+    text-align: center;
+  
+}
 
-/* Header & Footer 
-------------------------------------*/
+.intro h1{
+      color: #FFFFFF;
+}
 
+.intro h2{
+      color: #C4B5FD;
+}
 
+.work-experience {
+  padding 50px 10%;
+  background-color: #FFFFFF;
 
-/* Work Experience
-------------------------------------*/
-
-
-
-/* Education
-------------------------------------*/
+}
